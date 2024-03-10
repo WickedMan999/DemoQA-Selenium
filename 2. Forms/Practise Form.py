@@ -10,7 +10,7 @@ import time
 # Variables
 base_url = "https://demoqa.com"
 endpoint = "automation-practice-form"
-file_path = "D://Document//Mindrisers//11. Selenium//Final Codes//demoqa.com (final)//2. Forms//image.jpg"
+file_path = "D://image.jpg"
 
 # Customize Chrome Before It Opens
 chrome_options = webdriver.ChromeOptions()
@@ -210,6 +210,6 @@ def closeBrowser():
 # RUNNER
 ChromeBrowserCall(f"{base_url}/{endpoint}")
 scrollDown()
-formFillUp('Wicked', 'Man', 'wickedman@gmail.com',
-           '9849984998', '11-Feb-1999', 'Kirtipur')
+formFillUp('Wicked', 'Man', 'wicked@gmail.com',
+           '9849984998', '11-Feb-1999', 'XYZ')
 closeBrowser()
