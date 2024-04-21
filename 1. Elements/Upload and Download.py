@@ -25,7 +25,7 @@ driver = webdriver.Chrome(options=chrome_options)
 # Open URL
 def ChromeBrowserCall(baseURL):
     driver.get(baseURL)
-    driver.implicitly_wait(30)
+    time.sleep(3)
 
 
 # Wait Timer
