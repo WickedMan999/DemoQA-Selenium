@@ -101,13 +101,13 @@ def formFillUp(firstName, lastName, userEmail, contact, dob, address):
         dateOfBirth.send_keys(Keys.ENTER)
 
     except Exception as e:
-        print("An error occurred:", e)
+        print("An exception occurred:", e)
 
     # 7. Locate Subject element once it become clickable
     element = wait.until(EC.element_to_be_clickable(
         (By.XPATH, '//*[@id="subjectsContainer"]')))
 
-    # Colors to select
+    # Subjects to select
     subjects_to_select = ['Computer Science', 'Biology', 'History', 'English']
 
     # Select all Subjects using FOR loop

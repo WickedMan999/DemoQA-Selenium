@@ -132,6 +132,7 @@ def closeBrowser():
     driver.quit()
 
 
+# Runner
 ChromeBrowserCall(f"{base_url}/{endpoint}")
 scrollDown()
 alertButton()
