@@ -24,6 +24,7 @@ wait = WebDriverWait(driver, 10)
 # Open URL
 def ChromeBrowserCall(base_url):
     driver.get(base_url)
+    time.sleep(3)
 
 
 # Scroll down of webpage using Loop
