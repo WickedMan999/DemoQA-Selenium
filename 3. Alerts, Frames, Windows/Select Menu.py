@@ -29,7 +29,7 @@ actions = ActionChains(driver)
 # Open URL
 def ChromeBrowserCall(base_url):
     driver.get(base_url)
-    driver.implicitly_wait(30)
+    time.sleep(3)
 
 
 def scrollDown():
