@@ -28,6 +28,7 @@ actions = ActionChains(driver)
 # Open URL
 def ChromeBrowserCall(base_url):
     driver.get(base_url)
+    time.sleep(3)
 
 
 def autoCompleteMultipleColor():

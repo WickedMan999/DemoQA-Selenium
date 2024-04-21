@@ -24,7 +24,7 @@ wait = WebDriverWait(driver, 10)
 # Open URL
 def ChromeBrowserCall(base_url):
     driver.get(base_url)
-    driver.implicitly_wait(30)
+    time.sleep(3)
 
 
 # Handle New Tab

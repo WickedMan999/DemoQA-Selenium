@@ -25,6 +25,7 @@ wait = WebDriverWait(driver, 30)
 # Open URL
 def ChromeBrowserCall(base_url):
     driver.get(base_url)
+    time.sleep(3)
 
 
 # Date Picker using JavaScript
